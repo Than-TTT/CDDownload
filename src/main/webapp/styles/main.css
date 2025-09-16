@@ -1,0 +1,149 @@
+/* Reset cơ bản */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Toàn trang */
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 15px;
+  background-color: #f4f6f9;
+  color: #333;
+  max-width: 900px;
+  margin: 2em auto;
+  padding: 2em;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề */
+h1 {
+  font-size: 2em;
+  color: #2c3e50;
+  margin-bottom: 1em;
+  text-align: center;
+  font-weight: 700;
+}
+h2 {
+  font-size: 1.4em;
+  color: #34495e;
+  margin-bottom: 0.8em;
+}
+
+/* Form label + input */
+label {
+  display: block;
+  margin-bottom: 0.4em;
+  font-weight: 600;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 0.7em 0.9em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+  transition: all 0.2s ease;
+  background: #fafafa;
+}
+
+input:focus,
+select:focus {
+  border-color: #3498db;
+  background: #fff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+th,
+td {
+  border: none;
+  text-align: left;
+  padding: 0.9em;
+}
+
+th {
+  background: #3498db;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 0.05em;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+tr:hover {
+  background-color: #eaf3fc;
+}
+
+/* Nút bấm */
+button,
+input[type="submit"] {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  padding: 0.7em 1.4em;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background: #2c80b4;
+  transform: translateY(-2px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:active,
+input[type="submit"]:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+/* Link */
+a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Các class tiện ích */
+.pad_top {
+  padding-top: 0.5em;
+}
+.margin_left {
+  margin-left: 0.5em;
+}
+.align_left {
+  text-align: left;
+}
+.align_right {
+  text-align: right;
+}
